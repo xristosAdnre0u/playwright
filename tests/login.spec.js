@@ -2,7 +2,6 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../PO/LoginPage';
 import { MainPage } from '../PO/MainPage';
-import { default as testData } from '../testData';
 import { Sidebar } from '../PO/Sidebar';
 
 test('Login with user', async({page})=>

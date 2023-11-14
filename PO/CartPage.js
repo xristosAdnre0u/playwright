@@ -1,5 +1,5 @@
-const { expect } = require('@playwright/test');
-const { default: testData } = require('../testData');
+import { expect } from '@playwright/test';
+import { default as testData } from '../testData';
 
 exports.CartPage = class CartPage{
 

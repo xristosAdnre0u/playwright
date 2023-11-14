@@ -3,7 +3,6 @@ import { LoginPage } from '../PO/LoginPage';
 import { MainPage } from '../PO/MainPage';
 import { CartPage } from '../PO/CartPage';
 import { ProductPage } from '../PO/ProductPage';
-import { default as testData } from '../testData';
 
 test('Add a product', async({page})=> 
 {
