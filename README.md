@@ -1,2 +1,2 @@
 # playwright
-TEST Test
+A simple project with the playwright
