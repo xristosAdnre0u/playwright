@@ -1,9 +1,9 @@
 // @ts-check
-const { test, expect } = require('@playwright/test');
-const { LoginPage } = require('../PO/LoginPage');
-const { MainPage } = require('../PO/MainPage');
-const { default: testData } = require('../testData');
-const { Sidebar } = require('../PO/Sidebar');
+import { test, expect } from '@playwright/test';
+import { LoginPage } from '../PO/LoginPage';
+import { MainPage } from '../PO/MainPage';
+import { default as testData } from '../testData';
+import { Sidebar } from '../PO/Sidebar';
 
 test('Login with user', async({page})=>
 {

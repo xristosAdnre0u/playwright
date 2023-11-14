@@ -1,7 +1,7 @@
-const { expect } = require('@playwright/test');
-const { default: testData } = require('../testData');
+import { expect } from '@playwright/test';
+import { default as testData } from '../testData';
 
-exports.ProductPage = class ProductPage {
+export class ProductPage {
     constructor(page){
         this.page = page;
         this.addToCartBtn = page.locator('[id^="add-to-cart"]');

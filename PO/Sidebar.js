@@ -1,7 +1,7 @@
-const { expect } = require('@playwright/test');
-const { default: testData } = require('../testData');
+import { expect } from '@playwright/test';
+import { default as testData } from '../testData';
 
-exports.Sidebar = class Sidebar{
+export class Sidebar{
 
     constructor(page){
         this.page = page;
